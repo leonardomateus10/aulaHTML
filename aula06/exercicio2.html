@@ -19,12 +19,6 @@
             
         }
 
-        
-            
-    
-
-
-
     </style>
     
     
@@ -33,13 +27,136 @@
 <body>
     <h1>aula 08-exercicio 2</h1>
     <table>
-        <tr>
+        <tr style="background-color: red;">
             <th>dia da semana</th>
             <th>turma</th>
             <th>aula1</th>
             <th>aula2</th>
+            <th>aula3</th>
+            <th>aula4</th>
+            <th>aula5</th>
+            <th>aula6</th>
+        </tr>
+
+
+        <tr>
+            <td>segunda</td>
+            <td>A/B</td>
+            <td colspan="2">IW</td>
+            <td>EACNT</td>
+            <td>AD/APW</td>
+            <td>fisica</td>
+            <td>AD/PA</td>
+        </tr>
+
+        <tr>
+            <td>terça</td>
+            <td>A/B</td>
+            <td>portugues</td>
+            <td colspan="2">PE</td>
+            <td>fisica</td>
+            <td colspan="2">ingles</td> 
+        </tr>
+        <tr>
+            <td>quarta</td>
+            <td>A/B</td>
+            <td colspan="2">portugues</td>
+            <td colspan="2">FI/PA</td>
+            <td colspan="2">PA/FI</td>
         </tr>
     </table>
+
+    <p>
+        exercicio de rowspan e colspan
+    </p>
+
+    <style>
+        h1
+        {
+            color: white;
+            background-color: red;
+            text-align:center ;
+        }
+        table,th,td
+        {
+            border:1px solid red;
+            border-collapse:collapse ;
+            padding: 5px;
+            
+        }
+
+    </style>
+
+    <table>
+        <tr style="background-color: red;">
+            <th>dia da semana</th>
+            <th>turma</th>
+            <th>aula1</th>
+            <th>aula2</th>
+            <th>aula3</th>
+            <th>aula4</th>
+            <th>aula5</th>
+            <th>aula6</th>
+        </tr>
+        <tr>
+            <td rowspan="2">domingo</td>
+            <td>A</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>B</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td> 
+        </tr>
+
+        <tr>
+            <td rowspan="2"> segunda</td>
+            <td>A</td>
+            <td colspan="2">guilerme</td>
+            <td>vagner</td>
+            <td>rafael</td>
+            <td rowspan="2">vagner</td>
+            <td>rafael</td>
+        </tr>
+
+        <tr>
+            <td>B</td>
+            <td colspan="2">andricson</td>
+            <td>janete</td>
+            <td>ronaldo</td>
+            <td>andricson</td>
+        </tr>
+
+        <tr>
+                <td rowspan="2">terça</td>
+                <td>A</td>
+                <td rowspan="2">isabela</td>
+                <td rowspan="2" colspan="2">jaqueline</td>
+                <td rowspan="2" colspan="2">vagner</td>
+                <td rowspan="2" colspan="2">celene</td>
+        </tr>
+        <tr>
+            <td>B</td>
+        </tr>
+
+    </table>
+    
+
+
+
+
+
+
 
 
 
