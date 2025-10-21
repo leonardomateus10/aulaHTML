@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercícios com Tabelas</title>
+    <style>
+        body 
+        {
+            font-family: Arial, sans-serif;
+            background-color: #f2f5fa;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container
+         {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            width: 700px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 
+        {
+            text-align: center;
+            color: #333;
+        }
+
+        table
+         {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th 
+        {
+            background-color: #3498db;
+            color: white;
+            padding: 10px;
+            text-align: left;
+        }
+
+        td 
+        {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:nth-child(even)
+        {
+            background-color: #f9f9f9;
+        }
+
+        p
+         {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Exercícios com Tabelas</h2>
+
+    <ol>
+        <li>
+            <p>Observe a tabela abaixo com as notas de alguns alunos. Qual foi a média da aluna Ana?</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Aluno</th>
+                        <th>Nota 1</th>
+                        <th>Nota 2</th>
+                        <th>Nota 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ana</td>
+                        <td>8,0</td>
+                        <td>9,0</td>
+                        <td>7,0</td>
+                    </tr>
+                    <tr>
+                        <td>João</td>
+                        <td>6,5</td>
+                        <td>7,5</td>
+                        <td>8,0</td>
+                    </tr>
+                    <tr>
+                        <td>Lucas</td>
+                        <td>9,5</td>
+                        <td>8,5</td>
+                        <td>9,0</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+        </li>
+
+        <li>
+            <p>Complete a tabela abaixo com os resultados das multiplicações:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Fator A</th>
+                        <th>Fator B</th>
+                        <th>Resultado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>6</td>
+                        <td>42</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>8</td>
+                        <td>40</td>
+                    </tr>
+                </tbody>
+            </table>
+        </li>
+    </ol>
+</div>
+
+</body>
+</html>
